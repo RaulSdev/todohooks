@@ -1,6 +1,6 @@
 import { Paper, TextField } from "@mui/material";
 import React from "react";
-import useInputState from "./useInputState";
+import useInputState from "./hooks/useInputState";
 
 export default function TodoForm({ addTodo }) {
   const [value, handleChange, reset] = useInputState(" ");
